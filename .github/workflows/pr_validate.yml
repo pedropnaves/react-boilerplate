@@ -1,0 +1,31 @@
+name: Pull request validation
+
+on: [pull_request]
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    name: Validate Pull Request
+    defaults:
+      run:
+        shell: bash
+    env:
+      NODE_OPTIONS: --max_old_space_size=4096
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Clear cache
+      run: yarn cache clean
+
+    - name: Install libs
+      run: yarn
+
+    - name: Run lint
+      run: yarn lint
+
+    - name: Run test
+      run: yarn test
+
+    - name: Build
+      run: yarn build:prod

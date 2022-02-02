@@ -4,6 +4,7 @@ export default {
   coverageDirectory: 'coverage',
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
+    '!src/mocks/**',
     // '!src/index.tsx',
   ],
   coveragePathIgnorePatterns: [
