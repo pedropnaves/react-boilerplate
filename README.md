@@ -31,7 +31,6 @@ The main idea is to make it easy to start new projects using React.
 
 
 # Roadmap
-- Add Testing Library
 - Add Suport to routing
 - Improove build:prod configuration ( Terser, split Bundles, option to remove sourceMapping )
 - Add Sonar to do code static analysis
