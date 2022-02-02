@@ -9,6 +9,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true
   },
   "exclude": [
     "node_modules",
