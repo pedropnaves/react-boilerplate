@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "rootDir": "src",
+    "target": "es5",
+    "lib": ["dom", "es6"],
+    "module": "ESNext",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "noImplicitAny": true,
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "jest.config.ts"
+  ]
+}
