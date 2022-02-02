@@ -40,4 +40,4 @@ The main idea is to make it easy to start new projects using React.
 - Add styled components support
 - Add Mock Service Worker in order to mock requests on browser and node environment
 
-### Thanks to @washingtonsoares and @
+### Thanks to [@washingtonsoares](https://github.com/washingtonsoares) and [@lukascaska](https://github.com/lukascaska)
