@@ -27,6 +27,7 @@ The main idea is to make it easy to start new projects using React.
   - [Prettier](https://prettier.io/)
   - [Webpack](https://webpack.js.org/)
   - [MSW](https://mswjs.io/)
+  - [Testing Library](https://testing-library.com/)
 
 
 # Roadmap
