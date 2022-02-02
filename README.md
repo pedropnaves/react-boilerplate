@@ -20,12 +20,13 @@ The main idea is to make it easy to start new projects using React.
 
 
 ## Stack
-  - React
-  - Typescript
-  - Jest
-  - Eslint
-  - Prettier
-  - Webpack
+  - [React](https://reactjs.org/)
+  - [Typescript](https://www.typescriptlang.org/)
+  - [Jest](https://jestjs.io/)
+  - [Eslint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  - [Webpack](https://webpack.js.org/)
+  - [MSW](https://mswjs.io/)
 
 
 # Roadmap
@@ -38,6 +39,5 @@ The main idea is to make it easy to start new projects using React.
 - Add manifest.json and other configs in order to setup a PWA app (similar to what we have on create-react-app boilerplate)
 - Add storybook support
 - Add styled components support
-- Add Mock Service Worker in order to mock requests on browser and node environment
 
 ### Thanks to [@washingtonsoares](https://github.com/washingtonsoares) and [@lukascaska](https://github.com/lukascaska)

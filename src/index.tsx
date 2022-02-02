@@ -2,9 +2,9 @@ import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
 if (process.env.NODE_ENV === 'development') {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const { worker } = require('./mocks/browser')
-  worker.start()
+  import('./mocks/browser')
+    .then(mswModule => mswModule.worker.start())
+    .catch(err => console.error(`Failed to start MSW module${err}`))
 }
 
 ReactDOM.render(
