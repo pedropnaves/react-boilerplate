@@ -12,6 +12,7 @@
     "build": "webpack",
     "build:prod": "webpack --mode=production",
     "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
     "start": "webpack serve",
     "test": "jest"
   },
