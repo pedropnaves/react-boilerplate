@@ -5,6 +5,7 @@ export default {
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
     '!src/mocks/**',
+    '!src/**/test-utils.tsx',
     // '!src/index.tsx',
   ],
   coveragePathIgnorePatterns: [
@@ -21,6 +22,11 @@ export default {
     'jsx',
     'ts',
     'tsx',
+  ],
+  moduleDirectories: [
+    'node_modules',
+    'src/utils',
+    __dirname,
   ],
   testEnvironment: 'jsdom',
   testMatch: [
