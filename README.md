@@ -14,9 +14,9 @@ The main idea is to make it easy to start new projects using React.
 
 `yarn lint:fix` check files with lint rules and try fix the problems
 
-`start` start a webpack dev server and run project in development mode
+`yarn start` start a webpack dev server and run project in development mode
 
-`test` run unit tests using Jest
+`yarn test` run unit tests using Jest
 
 
 ## Stack
