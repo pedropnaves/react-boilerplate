@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'development') {
 
 ReactDOM.render(
   <div>
-    <h1>React and TypeScript boilerplate</h1>
+    <h1>React and TypeScript boilerplate.</h1>
   </div>,
   document.getElementById('root')
 )
