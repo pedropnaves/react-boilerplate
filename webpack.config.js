@@ -2,6 +2,7 @@
 /* eslint-disable no-undef */
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const Dotenv = require('dotenv-webpack')
 
 module.exports = {
   mode: 'development',
@@ -28,6 +29,7 @@ module.exports = {
      title: 'Development',
      template: path.resolve(__dirname, 'public', 'index.html'),
     }),
+    new Dotenv()
   ],
   output: {
     filename: '[name].bundle.js',
