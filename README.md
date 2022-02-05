@@ -28,6 +28,10 @@ The main idea is to make it easy to start new projects using React.
   - [Webpack](https://webpack.js.org/)
   - [MSW](https://mswjs.io/)
   - [Testing Library](https://testing-library.com/)
+  - [React Router DOM](https://reactrouter.com/)
+
+## Supports
+  - [DotEnv](https://github.com/motdotla/dotenv)
 
 
 # Roadmap

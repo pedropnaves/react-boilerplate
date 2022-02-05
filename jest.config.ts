@@ -5,8 +5,8 @@ export default {
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
     '!src/mocks/**',
-    '!src/**/test-utils.tsx',
-    // '!src/index.tsx',
+    '!src/**/testUtils.tsx',
+    '!src/index.tsx',
   ],
   coveragePathIgnorePatterns: [
     '/node_modules/'

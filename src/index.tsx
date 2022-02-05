@@ -1,5 +1,6 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
+import App from './containers/App'
 
 if (process.env.NODE_ENV === 'development') {
   import('./mocks/browser')
@@ -8,8 +9,6 @@ if (process.env.NODE_ENV === 'development') {
 }
 
 ReactDOM.render(
-  <div>
-    <h1>React and TypeScript boilerplate.</h1>
-  </div>,
+  <App />,
   document.getElementById('root')
 )
