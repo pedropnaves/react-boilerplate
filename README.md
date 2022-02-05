@@ -38,6 +38,7 @@ The main idea is to make it easy to start new projects using React.
 
 ### Supports
   - [DotEnv](https://github.com/motdotla/dotenv)
+  - [@svgr/webpack](https://react-svgr.com/)
 
 # Roadmap
 - Improove build:prod configuration ( Terser, split Bundles, option to remove sourceMapping )
