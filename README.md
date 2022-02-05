@@ -35,12 +35,11 @@ The main idea is to make it easy to start new projects using React.
   ### Code Quality
   - [Eslint](https://eslint.org/)
   - [Prettier](https://prettier.io/)
-  
+
 ### Supports
   - [DotEnv](https://github.com/motdotla/dotenv)
 
 # Roadmap
-- Add Suport to routing
 - Improove build:prod configuration ( Terser, split Bundles, option to remove sourceMapping )
 - Add Sonar to do code static analysis
 - Add @svgr/webpack in order to easily import SVG files 
