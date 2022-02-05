@@ -18,21 +18,26 @@ The main idea is to make it easy to start new projects using React.
 
 `yarn test` run unit tests using Jest
 
-
-## Stack
+# Stack
+  ### Core
   - [React](https://reactjs.org/)
   - [Typescript](https://www.typescriptlang.org/)
-  - [Jest](https://jestjs.io/)
-  - [Eslint](https://eslint.org/)
-  - [Prettier](https://prettier.io/)
   - [Webpack](https://webpack.js.org/)
-  - [MSW](https://mswjs.io/)
+  
+  ### Tests & Mock
+  - [Jest](https://jestjs.io/)
   - [Testing Library](https://testing-library.com/)
+  - [MSW](https://mswjs.io/)
+
+  ### Routing
   - [React Router DOM](https://reactrouter.com/)
 
-## Supports
+  ### Code Quality
+  - [Eslint](https://eslint.org/)
+  - [Prettier](https://prettier.io/)
+  
+### Supports
   - [DotEnv](https://github.com/motdotla/dotenv)
-
 
 # Roadmap
 - Add Suport to routing
